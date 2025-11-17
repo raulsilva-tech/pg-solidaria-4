@@ -1,0 +1,38 @@
+
+
+@media (forced-colors: active) {
+ 
+    * {
+        background-color: transparent !important;
+        color: CanvasText !important;
+        border-color: CanvasText !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    
+    body {
+        background-color: Canvas !important;
+    }
+
+    a, button {
+        forced-color-adjust: none; /* Permite que o link não seja afetado */
+        border: 2px solid transparent;
+    }
+
+    a:hover, a:focus, button:hover, button:focus {
+        border-color: Highlight !important; /* Adiciona um foco claro */
+        outline: none;
+    }
+
+    .btn-primary, .btn-secondary {
+        background-color: ButtonFace !important;
+        color: ButtonText !important;
+        border: 2px solid ButtonText !important;
+    }
+
+    .invalid-feedback, .alert-info {
+        color: #F00 !important; /* Vermelho forte para erro */
+        background-color: transparent !important;
+        border-color: #F00 !important;
+    }
+}

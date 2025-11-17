@@ -13,6 +13,7 @@ Este projeto é o website *frontend* da ONG Praia Grande Solidária. Desenvolvid
 
 
 ## Estrutura de Pastas
+```
 projeto/
 ├── css/
 │   ├── style.css         # Estilos principais.
@@ -27,3 +28,4 @@ projeto/
 │   ├── menu.js           # Lógica do Menu Hamburger e Dropdown (A11y).
 │   └── a11y-themes.js    # Lógica de alternância de Modo Escuro/Alto Contraste.
 └── index.html            # Estrutura principal e templates.
+```

@@ -52,6 +52,7 @@ function removeFeedback(inputElement) {
 
 
 function validateForm(form) {
+    
     let isValid = true;
     const inputs = form.querySelectorAll('input[required], textarea[required]');
 

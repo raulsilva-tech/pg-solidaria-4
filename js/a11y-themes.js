@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const currentTheme = localStorage.getItem('theme') || 'light';
     document.documentElement.setAttribute('data-theme', currentTheme);
 
-   
     const isHighContrast = localStorage.getItem('high-contrast') === 'true';
     if (isHighContrast && contrastLink) {
         contrastLink.disabled = false;

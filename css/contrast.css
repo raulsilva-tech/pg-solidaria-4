@@ -31,7 +31,7 @@
     }
 
     .invalid-feedback, .alert-info {
-        color: #F00 !important; /* Vermelho forte para erro */
+        color: #F00 !important; /* Vermelho  para erro */
         background-color: transparent !important;
         border-color: #F00 !important;
     }

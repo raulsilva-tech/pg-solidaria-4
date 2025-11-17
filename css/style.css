@@ -464,7 +464,7 @@ input:valid:not(:placeholder-shown) {
     .dropdown-menu li a { padding-left: var(--espaco-lg); }
 }
 
-/* Telas SM (min-width: 576px) */
+/* Telas SM(min-width: 576px) */
 @media (min-width: 576px) {
     .container { padding: var(--espaco-lg); }
     .projetos-grid { grid-template-columns: repeat(2, 1fr); }

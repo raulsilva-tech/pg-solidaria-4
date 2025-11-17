@@ -11,6 +11,7 @@ Este projeto é o website *frontend* da ONG Praia Grande Solidária. Desenvolvid
 * **Temas:** Alternância entre Modo Claro, Modo Escuro.
 * **Cadastro de Voluntários:** Formulário robusto com validação de CPF, Telefone e Idade Mínima (18 anos).
 
+
 ## Estrutura de Pastas
 projeto/
 ├── css/
